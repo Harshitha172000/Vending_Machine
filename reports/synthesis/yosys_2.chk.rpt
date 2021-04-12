@@ -1,0 +1,9 @@
+
+20. Executing CHECK pass (checking for obvious problems).
+checking module vm..
+Warning: Wire vm.\out [2] is used but has no driver.
+Warning: Wire vm.\out [1] is used but has no driver.
+Warning: Wire vm.\out [0] is used but has no driver.
+Warning: Wire vm.\change [1] is used but has no driver.
+Warning: Wire vm.\change [0] is used but has no driver.
+found and reported 5 problems.
