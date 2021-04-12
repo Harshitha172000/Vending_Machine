@@ -1,0 +1,124 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/vm/runs/final/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/vm/runs/final/tmp/merged_unpadded.lef
+Warning: /home/harshitha/Desktop/vlsi/pdk_files/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/vm/runs/final/results/placement/vm.placement.def
+Notice 0: Design: vm
+Notice 0:     Created 14 pins.
+Notice 0:     Created 298 components and 1220 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 95 nets and 300 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/vm/runs/final/results/placement/vm.placement.def
+[INFO]: Setting output delay to: 2.0
+[INFO]: Setting input delay to: 2.0
+[INFO]: Setting load to: 0.01765
+[INFO]: Configuring cts characterization...
+[INFO]: Performing clock tree synthesis...
+[INFO]: Looking for the following net(s): clk
+ *****************
+ * TritonCTS 2.0 *
+ *****************
+ *****************************
+ *  Create characterization  *
+ *****************************
+Number of created patterns = 50000.
+Number of created patterns = 100000.
+Number of created patterns = 150000.
+Number of created patterns = 200000.
+Number of created patterns = 250000.
+Number of created patterns = 300000.
+Number of created patterns = 313632.
+ Compiling LUT
+    Min. len    Max. len    Min. cap    Max. cap   Min. slew   Max. slew
+           2           8           1          39           1         199
+    [WARNING] 6336 wires are pure wire and no slew degration.
+    TritonCTS forced slew degradation on these wires.
+    Num wire segments: 216480
+    Num keys in characterization LUT: 1875
+    Actual min input cap: 2
+ **********************
+ *  Find clock roots  *
+ **********************
+ Running TritonCTS with user-specified clock roots: clk
+ ************************
+ *  Populate TritonCTS  *
+ ************************
+ Initializing clock nets
+ Looking for clock nets in the design
+ Net "clk" found
+ Initializing clock net for : "clk"
+ Clock net "clk" has 13 sinks
+ TritonCTS found 1 clock nets.
+ ****************************
+ *  Check characterization  *
+ ****************************
+    The chacterization used 4 buffer(s) types. All of them are in the loaded DB.
+ ***********************
+ *  Build clock trees  *
+ ***********************
+ Generating H-Tree topology for net clk...
+    Tot. number of sinks: 13
+    Number of static layers: 0
+ Wire segment unit: 13000 dbu (13 um)
+ Original sink region: [(7165, 23180), (79845, 96500)]
+ Normalized sink region: [(0.551154, 1.78308), (6.14192, 7.42308)]
+    Width:  5.59077
+    Height: 5.64
+ [WARNING] Creating fake entries in the LUT.
+ Level 1
+    Direction: Vertical
+    # sinks per sub-region: 7
+    Sub-region size: 5.59077 X 2.82
+    Segment length (rounded): 1
+    Key: 216712 outSlew: 11 load: 1 length: 1 isBuffered: 1
+ Stop criterion found. Max number of sinks is (15)
+ Building clock sub nets...
+ Number of sinks covered: 13
+ Clock topology of net "clk" done.
+ ****************
+ * Post CTS opt *
+ ****************
+ Avg. source sink dist: 32264 dbu.
+ Num outlier sinks: 0
+ ********************
+ * Write data to DB *
+ ********************
+ Writing clock net "clk" to DB
+    Created 3 clock buffers.
+    Minimum number of buffers in the clock path: 2.
+    Maximum number of buffers in the clock path: 2.
+    Created 3 clock nets.
+    Fanout distribution for the current clock = 6:1, 7:1.
+    Max level of the clock tree: 1.
+ ... End of TritonCTS execution.
+[INFO]: Legalizing...
+Design Stats
+--------------------------------
+total instances           301
+multi row instances         0
+fixed instances           210
+nets                      100
+design area           10231.1 u^2
+fixed area              447.9 u^2
+movable area           1071.0 u^2
+utilization                11 %
+utilization padded         11 %
+rows                       37
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement        9.0 u
+average displacement      0.0 u
+max displacement          3.0 u
+original HPWL          9999.1 u
+legalized HPWL        10004.9 u
+delta HPWL                  0 %
+
