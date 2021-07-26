@@ -33,7 +33,7 @@ Generating RTLIL representation for module `\vm'.
 Successfully finished Verilog frontend.
 
 2. Generating Graphviz representation of design.
-Writing dot description to `/openLANE_flow/designs/vm/runs/final/tmp/synthesis/hierarchy.dot'.
+Writing dot description to `/openLANE_flow/designs/vm/runs/epin/tmp/synthesis/hierarchy.dot'.
 Dumping module vm to page 1.
 
 3. Executing HIERARCHY pass (managing design hierarchy).
@@ -64,8 +64,8 @@ Removed 0 unused modules.
 Cleaned up 0 empty switches.
 
 5.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
-Removed 1 dead cases from process $proc$/openLANE_flow/designs/vm/src/vm.v:39$1 in module vm.
-Marked 27 switch rules as full_case in process $proc$/openLANE_flow/designs/vm/src/vm.v:39$1 in module vm.
+Removed 1 dead cases from process $proc$/openLANE_flow/designs/vm/src/vm.v:23$1 in module vm.
+Marked 27 switch rules as full_case in process $proc$/openLANE_flow/designs/vm/src/vm.v:23$1 in module vm.
 Removed a total of 1 dead cases.
 
 5.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
@@ -77,7 +77,7 @@ Promoted 0 assignments to connections.
 5.2.5. Executing PROC_ARST pass (detect async resets in processes).
 
 5.2.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
-Creating decoders for process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:39$1'.
+Creating decoders for process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:23$1'.
      1/3: $0\state[2:0]
      2/3: $0\change[1:0]
      3/3: $0\out[2:0]
@@ -85,16 +85,16 @@ Creating decoders for process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:39$1
 5.2.7. Executing PROC_DLATCH pass (convert process syncs to latches).
 
 5.2.8. Executing PROC_DFF pass (convert process syncs to FFs).
-Creating register for signal `\vm.\out' using process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:39$1'.
+Creating register for signal `\vm.\out' using process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:23$1'.
   created $dff cell `$procdff$266' with positive edge clock.
-Creating register for signal `\vm.\change' using process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:39$1'.
+Creating register for signal `\vm.\change' using process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:23$1'.
   created $dff cell `$procdff$267' with positive edge clock.
-Creating register for signal `\vm.\state' using process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:39$1'.
+Creating register for signal `\vm.\state' using process `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:23$1'.
   created $dff cell `$procdff$268' with positive edge clock.
 
 5.2.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
-Found and cleaned up 27 empty switches in `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:39$1'.
-Removing empty process `vm.$proc$/openLANE_flow/designs/vm/src/vm.v:39$1'.
+Found and cleaned up 27 empty switches in `\vm.$proc$/openLANE_flow/designs/vm/src/vm.v:23$1'.
+Removing empty process `vm.$proc$/openLANE_flow/designs/vm/src/vm.v:23$1'.
 Cleaned up 27 empty switches.
 
 5.3. Executing FLATTEN pass (flatten design).
@@ -230,15 +230,15 @@ Extracting FSM `\state' from module `\vm'.
   found ctrl input: $procmux$170_CMP
   found ctrl input: $procmux$179_CMP
   found state code: 3'000
-  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:110$12_Y
+  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:113$15_Y
   found state code: 3'110
-  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:115$13_Y
+  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:118$16_Y
   found state code: 3'101
   found state code: 3'100
-  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:47$2_Y
-  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:52$3_Y
-  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:57$4_Y
-  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:62$5_Y
+  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:31$2_Y
+  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:36$3_Y
+  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:41$4_Y
+  found ctrl input: $eq$/openLANE_flow/designs/vm/src/vm.v:46$5_Y
   found state code: 3'111
   found state code: 3'011
   found state code: 3'010
@@ -251,7 +251,7 @@ Extracting FSM `\state' from module `\vm'.
   found ctrl output: $procmux$160_CMP
   found ctrl output: $procmux$170_CMP
   found ctrl output: $procmux$179_CMP
-  ctrl inputs: { $auto$opt_reduce.cc:134:opt_mux$270 $eq$/openLANE_flow/designs/vm/src/vm.v:115$13_Y $eq$/openLANE_flow/designs/vm/src/vm.v:110$12_Y $eq$/openLANE_flow/designs/vm/src/vm.v:62$5_Y $eq$/openLANE_flow/designs/vm/src/vm.v:57$4_Y $eq$/openLANE_flow/designs/vm/src/vm.v:52$3_Y $eq$/openLANE_flow/designs/vm/src/vm.v:47$2_Y \reset }
+  ctrl inputs: { $auto$opt_reduce.cc:134:opt_mux$270 $eq$/openLANE_flow/designs/vm/src/vm.v:118$16_Y $eq$/openLANE_flow/designs/vm/src/vm.v:113$15_Y $eq$/openLANE_flow/designs/vm/src/vm.v:46$5_Y $eq$/openLANE_flow/designs/vm/src/vm.v:41$4_Y $eq$/openLANE_flow/designs/vm/src/vm.v:36$3_Y $eq$/openLANE_flow/designs/vm/src/vm.v:31$2_Y \reset }
   ctrl outputs: { $procmux$179_CMP $procmux$170_CMP $procmux$160_CMP $procmux$150_CMP $procmux$140_CMP $procmux$130_CMP $procmux$120_CMP $procmux$110_CMP $0\state[2:0] }
   transition:      3'000 8'---00000 ->      3'000 11'10000000000
   transition:      3'000 8'---10000 ->      3'111 11'10000000111
@@ -326,12 +326,12 @@ FSM `$fsm$\state$275' from module `vm':
 
   Input signals:
     0: \reset
-    1: $eq$/openLANE_flow/designs/vm/src/vm.v:47$2_Y
-    2: $eq$/openLANE_flow/designs/vm/src/vm.v:52$3_Y
-    3: $eq$/openLANE_flow/designs/vm/src/vm.v:57$4_Y
-    4: $eq$/openLANE_flow/designs/vm/src/vm.v:62$5_Y
-    5: $eq$/openLANE_flow/designs/vm/src/vm.v:110$12_Y
-    6: $eq$/openLANE_flow/designs/vm/src/vm.v:115$13_Y
+    1: $eq$/openLANE_flow/designs/vm/src/vm.v:31$2_Y
+    2: $eq$/openLANE_flow/designs/vm/src/vm.v:36$3_Y
+    3: $eq$/openLANE_flow/designs/vm/src/vm.v:41$4_Y
+    4: $eq$/openLANE_flow/designs/vm/src/vm.v:46$5_Y
+    5: $eq$/openLANE_flow/designs/vm/src/vm.v:113$15_Y
+    6: $eq$/openLANE_flow/designs/vm/src/vm.v:118$16_Y
 
   Output signals:
     0: $procmux$110_CMP
@@ -451,10 +451,10 @@ Optimizing module vm.
 5.9.16. Finished OPT passes. (There is nothing left to do.)
 
 5.10. Executing WREDUCE pass (reducing word size of cells).
-Removed top 2 bits (of 3) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:47$2 ($eq).
-Removed top 1 bits (of 3) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:52$3 ($eq).
-Removed top 1 bits (of 3) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:57$4 ($eq).
-Removed top 1 bits (of 2) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:110$12 ($eq).
+Removed top 2 bits (of 3) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:31$2 ($eq).
+Removed top 1 bits (of 3) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:36$3 ($eq).
+Removed top 1 bits (of 3) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:41$4 ($eq).
+Removed top 1 bits (of 2) from port B of cell vm.$eq$/openLANE_flow/designs/vm/src/vm.v:113$15 ($eq).
 Removed top 3 bits (of 4) from port B of cell vm.$auto$opt_dff.cc:218:make_patterns_logic$343 ($ne).
 Removed cell vm.$procmux$122 ($mux).
 Removed cell vm.$procmux$132 ($mux).
@@ -692,10 +692,10 @@ Successfully finished Verilog frontend.
 5.21.2. Continuing TECHMAP pass.
 Using extmapper simplemap for cells of type $and.
 Using extmapper simplemap for cells of type $eq.
+Using extmapper simplemap for cells of type $dff.
 Using extmapper simplemap for cells of type $reduce_or.
 Using extmapper simplemap for cells of type $ne.
 Using extmapper simplemap for cells of type $logic_not.
-Using extmapper simplemap for cells of type $dff.
 Using extmapper simplemap for cells of type $sdffe.
 Using extmapper simplemap for cells of type $reduce_bool.
 Using template $paramod\_90_pmux\WIDTH=2\S_WIDTH=2 for cells of type $pmux.
@@ -939,28 +939,28 @@ Mapping DFF cells in module `\vm':
 
 14. Executing ABC pass (technology mapping using ABC).
 
-14.1. Extracting gate netlist of module `\vm' to `/tmp/yosys-abc-6sAkgd/input.blif'..
+14.1. Extracting gate netlist of module `\vm' to `/tmp/yosys-abc-IT9lnc/input.blif'..
 Extracted 149 gates and 169 wires to a netlist network with 19 inputs and 13 outputs.
 
 14.1.1. Executing ABC.
-Running ABC command: /build/bin/yosys-abc -s -f /tmp/yosys-abc-6sAkgd/abc.script 2>&1
-ABC: ABC command line: "source /tmp/yosys-abc-6sAkgd/abc.script".
+Running ABC command: /build/bin/yosys-abc -s -f /tmp/yosys-abc-IT9lnc/abc.script 2>&1
+ABC: ABC command line: "source /tmp/yosys-abc-IT9lnc/abc.script".
 ABC: 
-ABC: + read_blif /tmp/yosys-abc-6sAkgd/input.blif 
-ABC: + read_lib -w /openLANE_flow/designs/vm/runs/final/tmp/trimmed.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.04 sec
+ABC: + read_blif /tmp/yosys-abc-IT9lnc/input.blif 
+ABC: + read_lib -w /openLANE_flow/designs/vm/runs/epin/tmp/trimmed.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.11 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_2".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_4".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_4".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_2".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_4".
-ABC: Library "sky130_fd_sc_hd__tt_025C_1v80" from "/openLANE_flow/designs/vm/runs/final/tmp/trimmed.lib" has 43 cells (6 skipped: 6 seq; 0 tri-state; 0 no func; 0 dont_use).  Time =     0.05 sec
-ABC: Memory =    1.82 MB. Time =     0.05 sec
-ABC: + read_constr -v /openLANE_flow/designs/vm/runs/final/tmp/synthesis/yosys.sdc 
+ABC: Library "sky130_fd_sc_hd__tt_025C_1v80" from "/openLANE_flow/designs/vm/runs/epin/tmp/trimmed.lib" has 43 cells (6 skipped: 6 seq; 0 tri-state; 0 no func; 0 dont_use).  Time =     0.17 sec
+ABC: Memory =    1.82 MB. Time =     0.17 sec
+ABC: + read_constr -v /openLANE_flow/designs/vm/runs/epin/tmp/synthesis/yosys.sdc 
 ABC: Setting driving cell to be "sky130_fd_sc_hd__inv_8".
 ABC: Setting output load to be 17.650000.
-ABC: + read_constr /openLANE_flow/designs/vm/runs/final/tmp/synthesis/yosys.sdc 
+ABC: + read_constr /openLANE_flow/designs/vm/runs/epin/tmp/synthesis/yosys.sdc 
 ABC: + fx 
 ABC: + mfs 
 ABC: + strash 
@@ -999,7 +999,7 @@ ABC: Path  9 --      66 : 1    1 sky130_fd_sc_hd__inv_2  A =   3.75  Df =1903.8 
 ABC: Start-point = pi8 (\state [4]).  End-point = po1 ($auto$rtlil.cc:2290:MuxGate$1062).
 ABC: + print_stats -m 
 ABC: netlist                       : i/o =   19/   13  lat =    0  nd =    75  edge =    186  area =729.37  delay = 9.00  lev = 9
-ABC: + write_blif /tmp/yosys-abc-6sAkgd/output.blif 
+ABC: + write_blif /tmp/yosys-abc-IT9lnc/output.blif 
 
 14.1.2. Re-integrating ABC results.
 ABC RESULTS:   sky130_fd_sc_hd__a211o_4 cells:        2
@@ -1077,6 +1077,6 @@ found and reported 5 problems.
 Dumping module `\vm'.
 
 Warnings: 5 unique messages, 5 total
-End of script. Logfile hash: b636e342bb, CPU: user 8.21s system 0.54s, MEM: 44.13 MB peak
+End of script. Logfile hash: 7c7b07cd1b, CPU: user 9.89s system 0.67s, MEM: 44.11 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 51% 4x stat (5 sec), 16% 2x abc (1 sec), ...
+Time spent: 46% 4x stat (5 sec), 20% 2x abc (2 sec), ...

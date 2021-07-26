@@ -7,7 +7,7 @@ This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'
 Error: cannot open '/.sta'.
 Warning: /home/harshitha/Desktop/vlsi/pdk_files/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib, line 31 default_operating_condition ff_n40C_1v95 not found.
 Warning: /home/harshitha/Desktop/vlsi/pdk_files/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, line 32 default_operating_condition ss_100C_1v60 not found.
-Warning: /openLANE_flow/designs/vm/runs/final/results/synthesis/vm.synthesis_optimized.v, line 392 module sky130_fd_sc_hd__tapvpwrvgnd_1 not found.  Creating black box for PHY_74.
+Warning: /openLANE_flow/designs/vm/runs/epin/results/synthesis/vm.synthesis_optimized.v, line 358 module sky130_fd_sc_hd__tapvpwrvgnd_1 not found.  Creating black box for PHY_40.
 create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
 set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
 set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]

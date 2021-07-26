@@ -6,9 +6,9 @@ if {  [info exist ::env(EXTRA_LEFS)] } {
 		lef read $lef_file
 	}
 }
-def read /openLANE_flow/designs/vm/runs/final/results/routing/vm.def
+def read /openLANE_flow/designs/vm/runs/epin/results/routing/vm.def
 load vm -dereference
-cd /openLANE_flow/designs/vm/runs/final/results/magic/
+cd /openLANE_flow/designs/vm/runs/epin/results/magic/
 extract do local
 extract no capacitance
 extract no coupling
@@ -20,6 +20,6 @@ extract
 
 ext2spice lvs
 ext2spice vm.ext
-feedback save /openLANE_flow/designs/vm/runs/final/logs/magic/magic_ext2spice.feedback.txt
-# exec cp vm.spice /openLANE_flow/designs/vm/runs/final/results/magic/vm.spice
+feedback save /openLANE_flow/designs/vm/runs/epin/logs/magic/magic_ext2spice.feedback.txt
+# exec cp vm.spice /openLANE_flow/designs/vm/runs/epin/results/magic/vm.spice
 

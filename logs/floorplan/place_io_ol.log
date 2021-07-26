@@ -1,0 +1,15 @@
+Notice 0: Reading LEF file:  /openLANE_flow/designs/vm/runs/epin/tmp/merged.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/vm/runs/epin/tmp/merged.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/vm/runs/epin/tmp/floorplan/verilog2def_openroad.def
+Notice 0: Design: vm
+Notice 0:     Created 12 pins.
+Notice 0:     Created 88 components and 652 component-terminals.
+Notice 0:     Created 95 nets and 300 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/vm/runs/epin/tmp/floorplan/verilog2def_openroad.def
+Top-level design name: vm
+Block boundaries: 0 0 65510 76230
+Writing /openLANE_flow/designs/vm/runs/epin/tmp/floorplan/ioPlacer.def

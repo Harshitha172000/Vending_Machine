@@ -6,37 +6,37 @@ MACRO vm
   CLASS BLOCK ;
   FOREIGN vm ;
   ORIGIN 0.000 0.000 ;
-  SIZE 112.945 BY 123.665 ;
+  SIZE 65.510 BY 68.640 ;
   PIN change[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 64.490 0.000 64.770 4.000 ;
+      LAYER met3 ;
+        RECT 64.510 53.080 65.510 53.680 ;
     END
   END change[0]
   PIN change[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 109.570 119.665 109.850 123.665 ;
+      LAYER met3 ;
+        RECT 64.510 68.040 65.510 68.640 ;
     END
   END change[1]
   PIN choice[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 33.210 0.000 33.490 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 7.520 1.000 8.120 ;
     END
   END choice[0]
   PIN choice[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 2.850 0.000 3.130 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 22.480 1.000 23.080 ;
     END
   END choice[1]
   PIN choice[2]
@@ -44,7 +44,7 @@ MACRO vm
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 108.945 73.480 112.945 74.080 ;
+        RECT 0.000 37.440 1.000 38.040 ;
     END
   END choice[2]
   PIN clk
@@ -52,7 +52,7 @@ MACRO vm
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 16.650 119.665 16.930 123.665 ;
+        RECT 16.190 0.000 16.470 1.000 ;
     END
   END clk
   PIN coin[0]
@@ -60,15 +60,15 @@ MACRO vm
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 49.000 4.000 49.600 ;
+        RECT 0.000 53.080 1.000 53.680 ;
     END
   END coin[0]
   PIN coin[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 95.770 0.000 96.050 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 68.040 1.000 68.640 ;
     END
   END coin[1]
   PIN out[0]
@@ -76,7 +76,7 @@ MACRO vm
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 108.945 27.240 112.945 27.840 ;
+        RECT 64.510 7.520 65.510 8.120 ;
     END
   END out[0]
   PIN out[1]
@@ -84,15 +84,15 @@ MACRO vm
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 95.240 4.000 95.840 ;
+        RECT 64.510 22.480 65.510 23.080 ;
     END
   END out[1]
   PIN out[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 79.210 119.665 79.490 123.665 ;
+      LAYER met3 ;
+        RECT 64.510 37.440 65.510 38.040 ;
     END
   END out[2]
   PIN reset
@@ -100,7 +100,7 @@ MACRO vm
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 47.930 119.665 48.210 123.665 ;
+        RECT 48.850 0.000 49.130 1.000 ;
     END
   END reset
   PIN VPWR
@@ -108,7 +108,7 @@ MACRO vm
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 89.435 10.640 91.035 111.760 ;
+        RECT 49.955 10.640 51.555 65.520 ;
     END
   END VPWR
   PIN VPWR
@@ -116,7 +116,7 @@ MACRO vm
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 55.550 10.640 57.150 111.760 ;
+        RECT 31.860 10.640 33.460 65.520 ;
     END
   END VPWR
   PIN VPWR
@@ -124,7 +124,7 @@ MACRO vm
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 21.665 10.640 23.265 111.760 ;
+        RECT 13.765 10.640 15.365 65.520 ;
     END
   END VPWR
   PIN VPWR
@@ -132,7 +132,7 @@ MACRO vm
     USE POWER ;
     PORT
       LAYER met5 ;
-        RECT 5.520 93.705 107.180 95.305 ;
+        RECT 5.520 55.175 59.800 56.775 ;
     END
   END VPWR
   PIN VPWR
@@ -140,7 +140,7 @@ MACRO vm
     USE POWER ;
     PORT
       LAYER met5 ;
-        RECT 5.520 60.160 107.180 61.760 ;
+        RECT 5.520 37.040 59.800 38.640 ;
     END
   END VPWR
   PIN VPWR
@@ -148,7 +148,7 @@ MACRO vm
     USE POWER ;
     PORT
       LAYER met5 ;
-        RECT 5.520 26.615 107.180 28.215 ;
+        RECT 5.520 18.905 59.800 20.505 ;
     END
   END VPWR
   PIN VGND
@@ -156,7 +156,7 @@ MACRO vm
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 72.495 10.640 74.095 111.760 ;
+        RECT 40.905 10.640 42.505 65.520 ;
     END
   END VGND
   PIN VGND
@@ -164,7 +164,7 @@ MACRO vm
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 38.605 10.640 40.205 111.760 ;
+        RECT 22.815 10.640 24.415 65.520 ;
     END
   END VGND
   PIN VGND
@@ -172,7 +172,7 @@ MACRO vm
     USE GROUND ;
     PORT
       LAYER met5 ;
-        RECT 5.520 76.935 107.180 78.535 ;
+        RECT 5.520 46.105 59.800 47.705 ;
     END
   END VGND
   PIN VGND
@@ -180,42 +180,38 @@ MACRO vm
     USE GROUND ;
     PORT
       LAYER met5 ;
-        RECT 5.520 43.385 107.180 44.985 ;
+        RECT 5.520 27.975 59.800 29.575 ;
     END
   END VGND
   OBS
       LAYER li1 ;
-        RECT 5.520 10.795 107.180 111.605 ;
+        RECT 5.520 10.795 59.800 65.365 ;
       LAYER met1 ;
-        RECT 2.830 10.640 109.870 111.760 ;
+        RECT 5.520 9.560 59.800 65.520 ;
       LAYER met2 ;
-        RECT 2.860 119.385 16.370 119.665 ;
-        RECT 17.210 119.385 47.650 119.665 ;
-        RECT 48.490 119.385 78.930 119.665 ;
-        RECT 79.770 119.385 109.290 119.665 ;
-        RECT 2.860 4.280 109.840 119.385 ;
-        RECT 3.410 4.000 32.930 4.280 ;
-        RECT 33.770 4.000 64.210 4.280 ;
-        RECT 65.050 4.000 95.490 4.280 ;
-        RECT 96.330 4.000 109.840 4.280 ;
+        RECT 6.990 1.280 55.110 68.525 ;
+        RECT 6.990 1.000 15.910 1.280 ;
+        RECT 16.750 1.000 48.570 1.280 ;
+        RECT 49.410 1.000 55.110 1.280 ;
       LAYER met3 ;
-        RECT 4.000 96.240 108.945 111.685 ;
-        RECT 4.400 94.840 108.945 96.240 ;
-        RECT 4.000 74.480 108.945 94.840 ;
-        RECT 4.000 73.080 108.545 74.480 ;
-        RECT 4.000 50.000 108.945 73.080 ;
-        RECT 4.400 48.600 108.945 50.000 ;
-        RECT 4.000 28.240 108.945 48.600 ;
-        RECT 4.000 26.840 108.545 28.240 ;
-        RECT 4.000 10.715 108.945 26.840 ;
+        RECT 1.400 67.640 64.110 68.505 ;
+        RECT 1.000 54.080 64.510 67.640 ;
+        RECT 1.400 52.680 64.110 54.080 ;
+        RECT 1.000 38.440 64.510 52.680 ;
+        RECT 1.400 37.040 64.110 38.440 ;
+        RECT 1.000 23.480 64.510 37.040 ;
+        RECT 1.400 22.080 64.110 23.480 ;
+        RECT 1.000 8.520 64.510 22.080 ;
+        RECT 1.400 7.655 64.110 8.520 ;
       LAYER met4 ;
-        RECT 23.665 10.640 38.205 111.760 ;
-        RECT 40.605 10.640 55.150 111.760 ;
-        RECT 57.550 10.640 72.095 111.760 ;
+        RECT 20.535 10.640 22.415 65.520 ;
+        RECT 24.815 10.640 31.460 65.520 ;
+        RECT 33.860 10.640 40.505 65.520 ;
+        RECT 42.905 10.640 49.555 65.520 ;
       LAYER met5 ;
-        RECT 5.520 63.360 107.180 75.335 ;
-        RECT 5.520 46.585 107.180 58.560 ;
-        RECT 5.520 29.815 107.180 41.785 ;
+        RECT 5.520 49.305 59.800 53.575 ;
+        RECT 5.520 40.240 59.800 44.505 ;
+        RECT 5.520 31.175 59.800 35.440 ;
   END
 END vm
 END LIBRARY

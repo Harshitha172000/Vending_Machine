@@ -1,17 +1,17 @@
-Notice 0: Reading LEF file:  /openLANE_flow/designs/vm/runs/final/tmp/merged_unpadded.lef
+Notice 0: Reading LEF file:  /openLANE_flow/designs/vm/runs/epin/tmp/merged_unpadded.lef
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
 Notice 0:     Created 438 library cells
-Notice 0: Finished LEF file:  /openLANE_flow/designs/vm/runs/final/tmp/merged_unpadded.lef
+Notice 0: Finished LEF file:  /openLANE_flow/designs/vm/runs/epin/tmp/merged_unpadded.lef
 Notice 0: 
-Reading DEF file: /openLANE_flow/designs/vm/runs/final/tmp/floorplan/pdn.def
+Reading DEF file: /openLANE_flow/designs/vm/runs/epin/tmp/floorplan/pdn.def
 Notice 0: Design: vm
 Notice 0:     Created 14 pins.
-Notice 0:     Created 298 components and 1220 component-terminals.
+Notice 0:     Created 161 components and 878 component-terminals.
 Notice 0:     Created 2 special nets and 0 connections.
 Notice 0:     Created 95 nets and 300 connections.
-Notice 0: Finished DEF file: /openLANE_flow/designs/vm/runs/final/tmp/floorplan/pdn.def
+Notice 0: Finished DEF file: /openLANE_flow/designs/vm/runs/epin/tmp/floorplan/pdn.def
 Design name: vm
-Core Area Boundaries: 5520 10880 107180 111520
-Number of instances 298
+Core Area Boundaries: 5520 10880 59800 65280
+Number of instances 161
 Placed 88 instances

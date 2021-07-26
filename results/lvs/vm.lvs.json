@@ -48,17 +48,6 @@
   {
    "pins": [
       [
-        "VGND",
-        "VPWR"
-      ], [
-        "VGND",
-        "VPWR"
-      ]
-   ]
-  },
-  {
-   "pins": [
-      [
         "A",
         "B",
         "C",
@@ -388,6 +377,17 @@
         "VPB",
         "VPWR",
         "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VPWR"
+      ], [
+        "VGND",
+        "VPWR"
       ]
    ]
   },
@@ -400,7 +400,6 @@
        [
          ["sky130_fd_sc_hd__and4_4", 7],
          ["sky130_fd_sc_hd__and2_4", 4],
-         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 136],
          ["sky130_fd_sc_hd__and3_4", 8],
          ["sky130_fd_sc_hd__or3_4", 6],
          ["sky130_fd_sc_hd__o21a_4", 3],
@@ -415,11 +414,11 @@
          ["sky130_fd_sc_hd__or4_4", 5],
          ["sky130_fd_sc_hd__o32a_4", 1],
          ["sky130_fd_sc_hd__clkbuf_1", 2],
-         ["sky130_fd_sc_hd__o22a_4", 1 ]
+         ["sky130_fd_sc_hd__o22a_4", 1],
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 33 ]
        ], [
          ["sky130_fd_sc_hd__and4_4", 7 ],
          ["sky130_fd_sc_hd__and2_4", 4 ],
-         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 136 ],
          ["sky130_fd_sc_hd__and3_4", 8 ],
          ["sky130_fd_sc_hd__or3_4", 6 ],
          ["sky130_fd_sc_hd__o21a_4", 3 ],
@@ -434,7 +433,8 @@
          ["sky130_fd_sc_hd__or4_4", 5 ],
          ["sky130_fd_sc_hd__o32a_4", 1 ],
          ["sky130_fd_sc_hd__clkbuf_1", 2 ],
-         ["sky130_fd_sc_hd__o22a_4", 1 ]
+         ["sky130_fd_sc_hd__o22a_4", 1 ],
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 33 ]
        ]
    ],
    "nets": [

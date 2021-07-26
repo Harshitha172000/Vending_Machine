@@ -2,39 +2,39 @@ OpenROAD 0.9.0 d03ebfc244
 This program is licensed under the BSD-3 license. See the LICENSE file for details. 
 Components of this program may be licensed under more restrictive licenses which must be honored.
 Error: cannot open '/.openroad'.
-Notice 0: Reading LEF file:  /openLANE_flow/designs/vm/runs/final/tmp/merged_unpadded.lef
+Notice 0: Reading LEF file:  /openLANE_flow/designs/vm/runs/epin/tmp/merged_unpadded.lef
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
 Notice 0:     Created 438 library cells
-Notice 0: Finished LEF file:  /openLANE_flow/designs/vm/runs/final/tmp/merged_unpadded.lef
+Notice 0: Finished LEF file:  /openLANE_flow/designs/vm/runs/epin/tmp/merged_unpadded.lef
 Notice 0: 
-Reading DEF file: /openLANE_flow/designs/vm/runs/final/tmp/placement/openphysyn.def
+Reading DEF file: /openLANE_flow/designs/vm/runs/epin/tmp/placement/openphysyn.def
 Notice 0: Design: vm
 Notice 0:     Created 14 pins.
-Notice 0:     Created 298 components and 1220 component-terminals.
+Notice 0:     Created 161 components and 878 component-terminals.
 Notice 0:     Created 2 special nets and 0 connections.
 Notice 0:     Created 95 nets and 300 connections.
-Notice 0: Finished DEF file: /openLANE_flow/designs/vm/runs/final/tmp/placement/openphysyn.def
+Notice 0: Finished DEF file: /openLANE_flow/designs/vm/runs/epin/tmp/placement/openphysyn.def
 Design Stats
 --------------------------------
-total instances           298
+total instances           161
 multi row instances         0
-fixed instances           210
+fixed instances            73
 nets                       97
-design area           10231.1 u^2
-fixed area              447.9 u^2
+design area            2952.8 u^2
+fixed area              191.4 u^2
 movable area           1038.5 u^2
-utilization                11 %
-utilization padded         20 %
-rows                       37
+utilization                38 %
+utilization padded         70 %
+rows                       20
 row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement      186.0 u
-average displacement      0.6 u
-max displacement          5.8 u
-original HPWL          9892.4 u
-legalized HPWL         9849.6 u
-delta HPWL                 -0 %
+total displacement      485.2 u
+average displacement      3.0 u
+max displacement         39.4 u
+original HPWL          4641.2 u
+legalized HPWL         4651.2 u
+delta HPWL                  0 %
 

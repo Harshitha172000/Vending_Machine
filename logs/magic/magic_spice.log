@@ -9,7 +9,7 @@ Sourcing design .magicrc for technology sky130A ...
 Input style sky130: scaleFactor=2, multiplier=2
 Scaled tech values by 2 / 1 to match internal grid scaling
 Loading sky130A Device Generator Menu ...
-Loading "/openLANE_flow/scripts/magic/mag_gds.tcl" from command line.
+Loading "/openLANE_flow/designs/vm/runs/epin/tmp/magic_spice.tcl" from command line.
 Reading LEF data from file /home/harshitha/Desktop/vlsi/pdk_files/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef.
 This action cannot be undone.
 LEF read, Line 77 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
@@ -45,32 +45,32 @@ This action cannot be undone.
   Processed 2 special nets total.
   Processed 98 nets total.
 DEF read: Processed 2695 lines.
-[INFO]: Zeroizing Origin
-[INFO]: Current Box Values: 0 0 13102 13728
-   Writing cell vm
-   Writing cell sky130_fd_sc_hd__decap_6
-   Writing cell sky130_fd_sc_hd__decap_12
-   Writing cell sky130_fd_sc_hd__decap_3
-   Writing cell sky130_fd_sc_hd__dfxtp_4
-   Writing cell sky130_fd_sc_hd__or4_4
-   Writing cell sky130_fd_sc_hd__decap_4
-   Writing cell sky130_fd_sc_hd__decap_8
-   Writing cell sky130_fd_sc_hd__fill_1
-   Writing cell sky130_fd_sc_hd__tapvpwrvgnd_1
-   Writing cell sky130_fd_sc_hd__or2_4
-   Writing cell sky130_fd_sc_hd__and4_4
-   Writing cell sky130_fd_sc_hd__and2_4
-   Writing cell sky130_fd_sc_hd__fill_2
-   Writing cell sky130_fd_sc_hd__a21o_4
-   Writing cell sky130_fd_sc_hd__o21a_4
-   Writing cell sky130_fd_sc_hd__inv_2
-   Writing cell sky130_fd_sc_hd__and3_4
-   Writing cell sky130_fd_sc_hd__a21oi_4
-   Writing cell sky130_fd_sc_hd__buf_2
-   Writing cell sky130_fd_sc_hd__a211o_4
-   Writing cell sky130_fd_sc_hd__clkbuf_1
-   Writing cell sky130_fd_sc_hd__or3_4
-   Writing cell sky130_fd_sc_hd__o32a_4
-   Writing cell sky130_fd_sc_hd__clkbuf_16
-   Writing cell sky130_fd_sc_hd__o22a_4
-[INFO]: GDS Write Complete
+Processing vm
+Extracting sky130_fd_sc_hd__o22a_4 into sky130_fd_sc_hd__o22a_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting sky130_fd_sc_hd__o32a_4 into sky130_fd_sc_hd__o32a_4.ext:
+Extracting sky130_fd_sc_hd__or3_4 into sky130_fd_sc_hd__or3_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
+Extracting sky130_fd_sc_hd__a211o_4 into sky130_fd_sc_hd__a211o_4.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__a21oi_4 into sky130_fd_sc_hd__a21oi_4.ext:
+Extracting sky130_fd_sc_hd__and3_4 into sky130_fd_sc_hd__and3_4.ext:
+Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
+Extracting sky130_fd_sc_hd__o21a_4 into sky130_fd_sc_hd__o21a_4.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__a21o_4 into sky130_fd_sc_hd__a21o_4.ext:
+Extracting sky130_fd_sc_hd__and4_4 into sky130_fd_sc_hd__and4_4.ext:
+Extracting sky130_fd_sc_hd__and2_4 into sky130_fd_sc_hd__and2_4.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__or2_4 into sky130_fd_sc_hd__or2_4.ext:
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+Extracting sky130_fd_sc_hd__decap_12 into sky130_fd_sc_hd__decap_12.ext:
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+Extracting sky130_fd_sc_hd__dfxtp_4 into sky130_fd_sc_hd__dfxtp_4.ext:
+Extracting sky130_fd_sc_hd__or4_4 into sky130_fd_sc_hd__or4_4.ext:
+Extracting vm into vm.ext:
+exttospice finished.
+Using technology "sky130A", version 1.0.85-0-g32cdb20

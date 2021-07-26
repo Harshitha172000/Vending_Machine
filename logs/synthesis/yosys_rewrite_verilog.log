@@ -27,101 +27,101 @@
 [TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
 [TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
 
-1. Executing Verilog-2005 frontend: /openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v
-Parsing Verilog input from `/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v' to AST representation.
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v
+Parsing Verilog input from `/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v' to AST representation.
 Generating RTLIL representation for module `\vm'.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:19: Warning: Identifier `\_019_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:25: Warning: Identifier `\_020_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:31: Warning: Identifier `\_021_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:38: Warning: Identifier `\_022_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:44: Warning: Identifier `\_023_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:49: Warning: Identifier `\state[7]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:50: Warning: Identifier `\_024_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:55: Warning: Identifier `\state[4]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:56: Warning: Identifier `\state[5]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:57: Warning: Identifier `\_025_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:62: Warning: Identifier `\state[1]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:63: Warning: Identifier `\state[3]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:64: Warning: Identifier `\state[6]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:65: Warning: Identifier `\_026_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:72: Warning: Identifier `\state[2]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:74: Warning: Identifier `\_027_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:83: Warning: Identifier `\_028_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:90: Warning: Identifier `\state[0]' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:92: Warning: Identifier `\_029_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:98: Warning: Identifier `\_030_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:106: Warning: Identifier `\_031_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:112: Warning: Identifier `\_032_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:119: Warning: Identifier `\_033_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:125: Warning: Identifier `\_034_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:131: Warning: Identifier `\_035_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:137: Warning: Identifier `\_036_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:144: Warning: Identifier `\_037_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:150: Warning: Identifier `\_038_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:157: Warning: Identifier `\_039_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:163: Warning: Identifier `\_040_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:170: Warning: Identifier `\_041_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:178: Warning: Identifier `\_042_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:187: Warning: Identifier `\_043_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:195: Warning: Identifier `\_011_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:203: Warning: Identifier `\_044_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:210: Warning: Identifier `\_045_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:218: Warning: Identifier `\_046_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:224: Warning: Identifier `\_047_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:232: Warning: Identifier `\_048_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:240: Warning: Identifier `\_049_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:248: Warning: Identifier `\_050_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:254: Warning: Identifier `\_010_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:262: Warning: Identifier `\_051_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:268: Warning: Identifier `\_052_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:275: Warning: Identifier `\_053_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:283: Warning: Identifier `\_054_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:291: Warning: Identifier `\_055_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:298: Warning: Identifier `\_056_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:305: Warning: Identifier `\_057_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:314: Warning: Identifier `\_058_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:322: Warning: Identifier `\_009_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:329: Warning: Identifier `\_059_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:337: Warning: Identifier `\_060_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:344: Warning: Identifier `\_061_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:352: Warning: Identifier `\_062_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:361: Warning: Identifier `\_063_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:368: Warning: Identifier `\_064_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:376: Warning: Identifier `\_008_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:382: Warning: Identifier `\_065_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:390: Warning: Identifier `\_066_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:396: Warning: Identifier `\_067_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:404: Warning: Identifier `\_002_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:410: Warning: Identifier `\_068_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:418: Warning: Identifier `\_069_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:427: Warning: Identifier `\_001_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:436: Warning: Identifier `\_003_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:445: Warning: Identifier `\_000_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:454: Warning: Identifier `\_004_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:460: Warning: Identifier `\_070_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:469: Warning: Identifier `\_005_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:478: Warning: Identifier `\_071_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:487: Warning: Identifier `\_072_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:494: Warning: Identifier `\_007_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:504: Warning: Identifier `\_073_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:513: Warning: Identifier `\_074_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:521: Warning: Identifier `\_013_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:529: Warning: Identifier `\_014_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:535: Warning: Identifier `\_015_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:544: Warning: Identifier `\_006_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:551: Warning: Identifier `\_016_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:559: Warning: Identifier `\_017_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:566: Warning: Identifier `\_018_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:574: Warning: Identifier `\_012_' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:581: Warning: Identifier `\clknet_1_1_0_clk' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:588: Warning: Identifier `\clknet_1_0_0_clk' is implicitly declared.
-/openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v:1239: Warning: Identifier `\clknet_0_clk' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:19: Warning: Identifier `\_019_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:25: Warning: Identifier `\_020_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:31: Warning: Identifier `\_021_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:38: Warning: Identifier `\_022_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:44: Warning: Identifier `\_023_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:49: Warning: Identifier `\state[7]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:50: Warning: Identifier `\_024_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:55: Warning: Identifier `\state[4]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:56: Warning: Identifier `\state[5]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:57: Warning: Identifier `\_025_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:62: Warning: Identifier `\state[1]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:63: Warning: Identifier `\state[3]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:64: Warning: Identifier `\state[6]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:65: Warning: Identifier `\_026_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:72: Warning: Identifier `\state[2]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:74: Warning: Identifier `\_027_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:83: Warning: Identifier `\_028_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:90: Warning: Identifier `\state[0]' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:92: Warning: Identifier `\_029_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:98: Warning: Identifier `\_030_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:106: Warning: Identifier `\_031_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:112: Warning: Identifier `\_032_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:119: Warning: Identifier `\_033_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:125: Warning: Identifier `\_034_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:131: Warning: Identifier `\_035_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:137: Warning: Identifier `\_036_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:144: Warning: Identifier `\_037_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:150: Warning: Identifier `\_038_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:157: Warning: Identifier `\_039_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:163: Warning: Identifier `\_040_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:170: Warning: Identifier `\_041_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:178: Warning: Identifier `\_042_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:187: Warning: Identifier `\_043_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:195: Warning: Identifier `\_011_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:203: Warning: Identifier `\_044_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:210: Warning: Identifier `\_045_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:218: Warning: Identifier `\_046_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:224: Warning: Identifier `\_047_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:232: Warning: Identifier `\_048_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:240: Warning: Identifier `\_049_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:248: Warning: Identifier `\_050_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:254: Warning: Identifier `\_010_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:262: Warning: Identifier `\_051_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:268: Warning: Identifier `\_052_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:275: Warning: Identifier `\_053_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:283: Warning: Identifier `\_054_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:291: Warning: Identifier `\_055_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:298: Warning: Identifier `\_056_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:305: Warning: Identifier `\_057_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:314: Warning: Identifier `\_058_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:322: Warning: Identifier `\_009_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:329: Warning: Identifier `\_059_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:337: Warning: Identifier `\_060_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:344: Warning: Identifier `\_061_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:352: Warning: Identifier `\_062_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:361: Warning: Identifier `\_063_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:368: Warning: Identifier `\_064_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:376: Warning: Identifier `\_008_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:382: Warning: Identifier `\_065_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:390: Warning: Identifier `\_066_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:396: Warning: Identifier `\_067_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:404: Warning: Identifier `\_002_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:410: Warning: Identifier `\_068_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:418: Warning: Identifier `\_069_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:427: Warning: Identifier `\_001_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:436: Warning: Identifier `\_003_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:445: Warning: Identifier `\_000_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:454: Warning: Identifier `\_004_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:460: Warning: Identifier `\_070_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:469: Warning: Identifier `\_005_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:478: Warning: Identifier `\_071_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:487: Warning: Identifier `\_072_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:494: Warning: Identifier `\_007_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:504: Warning: Identifier `\_073_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:513: Warning: Identifier `\_074_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:521: Warning: Identifier `\_013_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:529: Warning: Identifier `\_014_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:535: Warning: Identifier `\_015_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:544: Warning: Identifier `\_006_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:551: Warning: Identifier `\_016_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:559: Warning: Identifier `\_017_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:566: Warning: Identifier `\_018_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:574: Warning: Identifier `\_012_' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:581: Warning: Identifier `\clknet_1_1_0_clk' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:602: Warning: Identifier `\clknet_1_0_0_clk' is implicitly declared.
+/openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v:897: Warning: Identifier `\clknet_0_clk' is implicitly declared.
 Successfully finished Verilog frontend.
 
 2. Executing Verilog backend.
 Dumping module `\vm'.
 
 Warnings: 86 unique messages, 86 total
-End of script. Logfile hash: dc1792af1a, CPU: user 9.72s system 0.16s, MEM: 16.98 MB peak
+End of script. Logfile hash: c679e62367, CPU: user 3.73s system 0.17s, MEM: 11.43 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 79% 2x write_verilog (7 sec), 20% 2x read_verilog (2 sec)
+Time spent: 81% 2x write_verilog (3 sec), 18% 2x read_verilog (0 sec)

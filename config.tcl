@@ -3,9 +3,9 @@ set ::env(PDK) "sky130A"
 set ::env(STD_CELL_LIBRARY) "sky130_fd_sc_hd"
 set ::env(PDK_ROOT) "/home/harshitha/Desktop/vlsi/pdk_files"
 set ::env(CELL_PAD) "8"
-set ::env(MERGED_LEF) "/openLANE_flow/designs/vm/runs/final/tmp/merged.lef"
-set ::env(MERGED_LEF_UNPADDED) "/openLANE_flow/designs/vm/runs/final/tmp/merged_unpadded.lef"
-set ::env(TRACKS_INFO_FILE) "/openLANE_flow/designs/vm/runs/final/tmp/tracks_copy.info"
+set ::env(MERGED_LEF) "/openLANE_flow/designs/vm/runs/epin/tmp/merged.lef"
+set ::env(MERGED_LEF_UNPADDED) "/openLANE_flow/designs/vm/runs/epin/tmp/merged_unpadded.lef"
+set ::env(TRACKS_INFO_FILE) "/openLANE_flow/designs/vm/runs/epin/tmp/tracks_copy.info"
 set ::env(TECH_LEF) "/home/harshitha/Desktop/vlsi/pdk_files/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef"
 # Design config
 set ::env(CLOCK_PERIOD) "10"
@@ -13,7 +13,7 @@ set ::env(DESIGN_NAME) "vm"
 set ::env(DESIGN_DIR) "/openLANE_flow/designs/vm"
 set ::env(CLOCK_PORT) "clk"
 # Synthesis config
-set ::env(LIB_SYNTH) "/openLANE_flow/designs/vm/runs/final/tmp/trimmed.lib"
+set ::env(LIB_SYNTH) "/openLANE_flow/designs/vm/runs/epin/tmp/trimmed.lib"
 set ::env(LIB_SYNTH_COMPLETE) "/home/harshitha/Desktop/vlsi/pdk_files/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 set ::env(SYNTH_DRIVING_CELL) "sky130_fd_sc_hd__inv_8"
 set ::env(SYNTH_CAP_LOAD) "17.65"
@@ -28,7 +28,7 @@ set ::env(SYNTH_STRATEGY) "2"
 set ::env(CLOCK_BUFFER_FANOUT) "16"
 set ::env(BASE_SDC_FILE) "/openLANE_flow/scripts/base.sdc"
 # Floorplan config
-set ::env(FP_CORE_UTIL) "10"
+set ::env(FP_CORE_UTIL) "35"
 set ::env(FP_ASPECT_RATIO) "1"
 set ::env(FP_CORE_MARGIN) "0"
 set ::env(FP_IO_HMETAL) "4"
@@ -42,7 +42,7 @@ set ::env(FP_PDN_HPITCH) "153.18"
 set ::env(FP_TAPCELL_DIST) "14"
 set ::env(CELL_PAD_EXCLUDE) "sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*"
 # Placement config
-set ::env(PL_TARGET_DENSITY) "1"
+set ::env(PL_TARGET_DENSITY) "0.50"
 set ::env(PL_TIME_DRIVEN) "0"
 set ::env(PL_LIB) "/home/harshitha/Desktop/vlsi/pdk_files/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 set ::env(PL_BASIC_PLACEMENT) "0"
@@ -84,6 +84,6 @@ set ::env(CHECK_ASSIGN_STATEMENTS) "0"
 set ::env(CHECK_UNMAPPED_CELLS) "1"
 set ::env(USE_ARC_ANTENNA_CHECK) "1"
 set ::env(RUN_SPEF_EXTRACTION) "1"
-set ::env(CURRENT_DEF) /openLANE_flow/designs/vm/runs/final/results/routing/vm.def
-set ::env(CURRENT_NETLIST) /openLANE_flow/designs/vm/runs/final/results/lvs/vm.lvs.powered.v
-set ::env(PREV_NETLIST) /openLANE_flow/designs/vm/runs/final/results/synthesis/vm.synthesis_preroute.v
+set ::env(CURRENT_DEF) /openLANE_flow/designs/vm/runs/epin/results/routing/vm.def
+set ::env(CURRENT_NETLIST) /openLANE_flow/designs/vm/runs/epin/results/lvs/vm.lvs.powered.v
+set ::env(PREV_NETLIST) /openLANE_flow/designs/vm/runs/epin/results/synthesis/vm.synthesis_preroute.v

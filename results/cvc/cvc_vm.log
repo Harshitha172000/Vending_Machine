@@ -1,17 +1,17 @@
-CVC: Log output to /openLANE_flow/designs/vm/runs/final/results/cvc/cvc_vm.log
-CVC: Error output to /openLANE_flow/designs/vm/runs/final/results/cvc/cvc_vm.error.gz
-CVC: Debug output to /openLANE_flow/designs/vm/runs/final/results/cvc/cvc_vm.debug.gz
+CVC: Log output to /openLANE_flow/designs/vm/runs/epin/results/cvc/cvc_vm.log
+CVC: Error output to /openLANE_flow/designs/vm/runs/epin/results/cvc/cvc_vm.error.gz
+CVC: Debug output to /openLANE_flow/designs/vm/runs/epin/results/cvc/cvc_vm.debug.gz
 CVC: Circuit Validation Check  Version 1.0.0
-CVC: Start: Tue Apr  6 16:39:10 2021
+CVC: Start: Sun May  2 09:30:04 2021
 
 Using the following parameters for CVC (Circuit Validation Check) from /openLANE_flow/scripts/cvc/sky130A/cvcrc.sky130A
 CVC_TOP = 'vm'
-CVC_NETLIST = '/openLANE_flow/designs/vm/runs/final/results/cvc/vm.cdl'
+CVC_NETLIST = '/openLANE_flow/designs/vm/runs/epin/results/cvc/vm.cdl'
 CVC_MODE = 'vm'
 CVC_MODEL_FILE = '/openLANE_flow/scripts/cvc/sky130A/cvc.sky130.models'
-CVC_POWER_FILE = '/openLANE_flow/designs/vm/runs/final/results/cvc/vm.power'
+CVC_POWER_FILE = '/openLANE_flow/designs/vm/runs/epin/results/cvc/vm.power'
 CVC_FUSE_FILE = ''
-CVC_REPORT_FILE = '/openLANE_flow/designs/vm/runs/final/results/cvc/cvc_vm.log'
+CVC_REPORT_FILE = '/openLANE_flow/designs/vm/runs/epin/results/cvc/cvc_vm.log'
 CVC_REPORT_TITLE = 'CVC $CVC_TOP'
 CVC_CIRCUIT_ERROR_LIMIT = '100'
 CVC_SEARCH_LIMIT = '100'
@@ -44,13 +44,13 @@ End of parameters
 
 CVC: Reading device model settings...
 CVC: Reading power settings...
-CVC: Parsing netlist /openLANE_flow/designs/vm/runs/final/results/cvc/vm.cdl
-Cdl fixed data size 30219
-Usage CDL: Time: 0  Memory: 7052  I/O: 4280  Swap: 0
+CVC: Parsing netlist /openLANE_flow/designs/vm/runs/epin/results/cvc/vm.cdl
+Cdl fixed data size 20896
+Usage CDL: Time: 0  Memory: 6776  I/O: 4280  Swap: 0
 CVC: Counting and linking...
 CVC: Assigning IDs ...
-Usage DB: Time: 0  Memory: 7312  I/O: 4280  Swap: 0
-CVC: 1062(1062) instances, 415(415) nets, 2292(2292) devices.
+Usage DB: Time: 0  Memory: 6776  I/O: 4280  Swap: 0
+CVC: 363(363) instances, 415(415) nets, 1190(1190) devices.
 CVC: Setting models ...
 Setting model tolerances...
 CVC: Shorting switches...
@@ -58,12 +58,12 @@ CVC: Shorting switches...
 Setting instance power...
 
 ModelList> filename /openLANE_flow/scripts/cvc/sky130A/cvc.sky130.models
- Model> nfet_01v8       1146 M->nmos       Parameters> Vth=0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 4-1 4-3
- Model> pfet_01v8_hvt      1146 M->pmos       Parameters> Vth=-0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
+ Model> nfet_01v8        595 M->nmos       Parameters> Vth=0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 4-1 4-3
+ Model> pfet_01v8_hvt       595 M->pmos       Parameters> Vth=-0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
  Model> short              0 R->switch_on  Parameters>
 ModelList> end
 
-Power List> filename /openLANE_flow/designs/vm/runs/final/results/cvc/vm.power
+Power List> filename /openLANE_flow/designs/vm/runs/epin/results/cvc/vm.power
  VPWR power 1.8 -> 1.8 power
  VGND power 0.0 -> 0.0 power
 choice[2:0]~>std_input input std_input
@@ -81,7 +81,7 @@ coin[1:0]~>std_input input std_input
 Power List> end
 
 CVC: Linking devices...
-Usage EQUIV: Time: 0  Memory: 7756  I/O: 4336  Swap: 0
+Usage EQUIV: Time: 0  Memory: 7152  I/O: 4336  Swap: 0
 Power nets 14
 Hash dump:parameter->resistance map
 Contains 53 buckets, 27 elements
@@ -99,18 +99,18 @@ Element count 3, 34
 Element count 4, 4
 Unused hash: 0.24, average depth 2.05
 Hash dump:string->text map
-Contains 1493 buckets, 2292 elements
-Element count 0, 327
-Element count 1, 495
-Element count 2, 371
-Element count 3, 183
-Element count 4, 83
-Element count 5, 30
-Element count 6, 4
-Unused hash: 0.22, average depth 2.55
+Contains 1493 buckets, 1593 elements
+Element count 0, 525
+Element count 1, 541
+Element count 2, 283
+Element count 3, 100
+Element count 4, 36
+Element count 5, 6
+Element count 6, 2
+Unused hash: 0.35, average depth 2.12
 CVC: Shorting non conducting resistors...
 CVC: Calculating resistor voltages...
-Usage RES: Time: 0  Memory: 7756  I/O: 4344  Swap: 0
+Usage RES: Time: 0  Memory: 7152  I/O: 4344  Swap: 0
 Power nets 14
 CVC: Calculating min/max voltages...
 Processing trivial nets found 136 trivial nets
@@ -119,7 +119,7 @@ CVC:   Removed 0 calculations
 Copying master nets
 CVC: Ignoring non-conducting devices...
 CVC:   Ignored 0 devices
-Usage MIN/MAX1: Time: 0  Memory: 7756  I/O: 4344  Swap: 0
+Usage MIN/MAX1: Time: 0  Memory: 7152  I/O: 4344  Swap: 0
 Power nets 136
 ! Checking forward bias diode errors: 
 
@@ -131,12 +131,12 @@ Power nets 136
 
 ! Checking pmos gate vs source errors: 
 
-Usage ERROR: Time: 0  Memory: 7756  I/O: 4344  Swap: 0
+Usage ERROR: Time: 0  Memory: 7152  I/O: 4344  Swap: 0
 CVC: Propagating Simulation voltages 1...
-Usage SIM1: Time: 0  Memory: 7756  I/O: 4344  Swap: 0
+Usage SIM1: Time: 0  Memory: 7152  I/O: 4344  Swap: 0
 Power nets 136
 CVC: Propagating Simulation voltages 3...
-Usage SIM2: Time: 0  Memory: 7756  I/O: 4344  Swap: 0
+Usage SIM2: Time: 0  Memory: 7152  I/O: 4344  Swap: 0
 Power nets 136
 Added 0 latch voltages
 CVC: Calculating min/max voltages...
@@ -146,7 +146,7 @@ CVC:   Removed 0 calculations
 Copying master nets
 CVC: Ignoring non-conducting devices...
 CVC:   Ignored 0 devices
-Usage MIN/MAX2: Time: 0  Memory: 7756  I/O: 4344  Swap: 0
+Usage MIN/MAX2: Time: 0  Memory: 7152  I/O: 4344  Swap: 0
 Power nets 258
 ! Checking overvoltage errors
 
@@ -178,8 +178,8 @@ CVC: Overvoltage-VDS:       0
 CVC: Overvoltage-VGS:       0
 CVC: Unexpected voltage :   0
 CVC: Total:                 0
-Usage Total: Time: 0  Memory: 8324  I/O: 4376  Swap: 0
-Virtual net update/access 3543/162535
-CVC: Log output to /openLANE_flow/designs/vm/runs/final/results/cvc/cvc_vm.log
-CVC: End: Tue Apr  6 16:39:11 2021
+Usage Total: Time: 0  Memory: 7876  I/O: 4640  Swap: 0
+Virtual net update/access 3543/109639
+CVC: Log output to /openLANE_flow/designs/vm/runs/epin/results/cvc/cvc_vm.log
+CVC: End: Sun May  2 09:30:05 2021
 
